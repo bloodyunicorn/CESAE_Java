@@ -4,14 +4,17 @@ import java.util.Scanner;
 class ex10 {
     public static void checkPos () {
         Scanner input = new Scanner(System.in);
-        int x=0;
-        double i=0;
+
+        double i = 0;
         boolean valid = false;
 
-        while (x < 0 && !valid) {
+        while (i < 0 && !valid) {
 
             System.out.println("Introduza um valor inteiro e positivo:");
-            x = input.nextInt();
+            i = input.nextDouble();
+
+            if (i == int(i)){
+            }
         }
     }
     public static void main(String[] args) {
