@@ -6,29 +6,33 @@ class ex6 {
     public static void printName(File x) throws FileNotFoundException {
         Scanner in = new Scanner(new File(x.toURI()));
 
-        String nome, nomeMaior = "", linha;
-        int idade, maior = 0, y = 0;
+        String linha;
+        int maior = 0, i = 0, nome = 0;
         String[] div = new String[33];
+        String[][] dados = new String[33][2];
 
         while (in.hasNextLine()){
             linha = in.nextLine();
-            div = linha.split(",");
+            div = linha.split(",");    //separa nome da idade
+
+            dados[i][0]=div[0];  //     guarda nome
+            dados[i][1]=div[1];  //     guarda idade
+            i++;
         }
-        String[][] dados = new String[(div.length/2)][2];
-            for(int i = 0; i < div.length; i++){
 
-                for (y = 0; y< 2; y++){
-                    dados[i][y] = div[i];
+        for(int line = 0; line< dados.length; line++){
+            
+            for (int col = 0; col<dados[0].length; col++){
+
+                int idade = Integer.parseInt(dados[line][1]);   //converte idade p int
+                if(idade>maior){
+                    maior = idade;
+                    nome = line;
                 }
-
-                 if(dados[i][y] >= maior){
-                     maior = dados[i][y];
-                     nomeMaior = dados[i][y];
-                 }
             }
+        }
 
-
-        System.out.println(nomeMaior);
+        System.out.println(dados[nome][0]);
         in.close();
 
     }
