@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.nio.channels.ScatteringByteChannel;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 class Main {
@@ -12,9 +11,12 @@ class Main {
        int sum=0;
 
        while (in.hasNextLine()){
+
            linha = in.nextLine();
            sum++;
+
       }
+
         in.close();
         return sum;
     }
@@ -27,10 +29,12 @@ class Main {
         String[] div = new String[9];
 
         int i=0;
+
         String linha = in.nextLine();
         String[][] dados = new String[size][9];
 
         while (in.hasNextLine()) {
+
             linha = in.nextLine();
             div = linha.split(";");
 
@@ -52,8 +56,10 @@ class Main {
 
         for (int i = 0; i < dados.length; i++) {
             System.out.print("\n");
+
             for (int x = 0; x < dados[0].length; x++) {
                 System.out.print(dados[i][x] + " ; ");
+
             }
         }
     }
@@ -69,8 +75,8 @@ class Main {
                 sum++;
             }
         if (val) {
-            System.out.println("Numero total de vendas: " + sum);
-            System.out.println("Valor Total : " + total);
+            System.out.println("\nNumero total de vendas: " + sum);
+            System.out.printf("Valor Total : %,.2f€", total );
         }
         return total;
     }
@@ -78,27 +84,30 @@ class Main {
     public static void lucro(double x){ //op3
 
         double lucro = x * 0.1;
-        System.out.println("O valor total de lucro é " + lucro + "€");
+        System.out.printf("O valor total de lucro é %,.2f€", lucro );
 
     }
 
     public static void infoCliente(String[][] x){
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Id do cliente: ");
+        System.out.println("\nId do cliente: ");
+
         int op = in.nextInt();
         int id, i =0;
         boolean stop = false;
+
         while (!stop){
+
             id = Integer.parseInt(x[i][1]);
+
             if (id == op) {
-                System.out.println("Nome: " + x[i][2] + "\nContacto: " + x[i][3] + "\nEmail: " + x[i][4]);;
+                System.out.println("\nNome: " + x[i][2] + "\nContacto: " + x[i][3] + "\nEmail: " + x[i][4]);;
                 stop = true;
             }
+
             i++;
         }
-
-
     }
     public static void editora(String[][] x) { //op5
 
@@ -111,7 +120,7 @@ class Main {
         String[] categorias = new String[10];
         String[] jogos = new String[10];
 
-        System.out.println("---Categorias e Jogos da " + editora + "---");
+        System.out.println("\n---Categorias e Jogos da " + editora + "---");
 
         for (int i = 0; i < x.length; i++) {
 
@@ -135,22 +144,22 @@ class Main {
                         j++;
                     }
                 }
-                    int k = 0;
-                    boolean verJog = false;
+                int k = 0;
+                boolean verJog = false;
 
-                    while (!verJog) {
+                while (!verJog) {
 
-                        if (jogos[k] == null) {
-                            jogos[k] = jogo;
-                            System.out.println(jogo);
+                    if (jogos[k] == null) {
+                        jogos[k] = jogo;
+                        System.out.println(jogo);
 
-                        } else if (jogos[k].equals(jogo)) {
-                            verJog = true;
+                    } else if (jogos[k].equals(jogo)) {
+                        verJog = true;
 
-                        } else {
-                            k++;
-                        }
+                    } else {
+                        k++;
                     }
+                }
             }
         }
     }
@@ -159,7 +168,7 @@ class Main {
     public static void jogoMaiorValor(String[][] x) { //op6
         double maior = 0;
 
-        System.out.println("As vendas mais caras foram: ");
+        System.out.println("\nAs vendas mais caras foram: ");
         for (int j = 0; j < x.length; j++) {
             double valor = Double.parseDouble(x[j][8]);
             if (valor > maior) {
@@ -179,12 +188,16 @@ class Main {
     public static void menu(File x) throws FileNotFoundException {
             Scanner in = new Scanner(new File(x.toURI()));
             Scanner input = new Scanner(System.in);
+
             int opcao=0;
             String[][] dados = splitFicheiro(x);
+
             do {
+
                 System.out.println("\nPor favor, escolha a opção pretendida: \n");
                 System.out.println("1 - Imprimir ficheiro\n2 - Quantidade e Total de vendas\n3 - Lucros\n4 - Ver dados de Cliente\n5 - Generos e Jogos da editora\n6 - Ver jogo mais caro\n7 - Sair");
                 System.out.print("\n-> ");
+
                 try {
 
                     opcao = input.nextInt();
@@ -227,9 +240,7 @@ class Main {
 
             in.close();
 
-
         }
-
 
     public static void main(String[] args) {
 
