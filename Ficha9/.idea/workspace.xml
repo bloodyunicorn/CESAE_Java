@@ -5,33 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebf836c3-0829-4f21-8595-47d64d9a6692" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ficha9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculadoraMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarroMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CirculoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cão.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CãoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LivroMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PessoaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RetanguloMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/GameStart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalhoPratico copy/trabalhoPratico.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alunos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlunosMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Combustivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FuncinarioMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProdutoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tentativa/trabalhoPratico.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ficha5Java-main/Ficha5Java-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ficha5Java-main/Ficha5Java-main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FichaPratica08/ficha8/src/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica08/ficha8/src/ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ficha6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ficha6/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ficha6/out/production/ficha6/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ficha6/out/production/ficha6/ex.class" afterDir="false" />
@@ -77,7 +68,23 @@
       <change beforePath="$PROJECT_DIR$/../ficha8/ficha8.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ficha8/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ficha8/src/ex1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoPratico/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/GameStart.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico copy/trabalhoPratico.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/GameStart.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico/trabalhoPratico.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoPratico_JoanaFerraz/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoPratico_JoanaFerraz/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +94,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -99,19 +107,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +130,9 @@
       <option name="presentableId" value="Default" />
       <updated>1682675275778</updated>
       <workItem from="1682675277520" duration="4556000" />
-      <workItem from="1682680354437" duration="2966000" />
+      <workItem from="1682680354437" duration="3617000" />
+      <workItem from="1683205385321" duration="4731000" />
+      <workItem from="1683277554669" duration="18977000" />
     </task>
     <servers />
   </component>

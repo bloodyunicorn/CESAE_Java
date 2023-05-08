@@ -1,13 +1,27 @@
+import java.util.Scanner;
 public class CarroMain {
+
     public static void main(String[] args) {
 
-        // Instanciar um objeto da classe Carro
-        Carro mercedesA45 = new Carro("Mercedes","A45",2021);
+        Scanner input = new Scanner(System.in);
 
-        // Ligar o carro
-        mercedesA45.ligar();
+        Carro carro = new Carro("Ford", "Mustang", 1990, 400, 2000, Combustivel.GASOLINA, 16);
 
-        // Acelerar o carro
-        mercedesA45.acelerar();
+        carro.ligar();
+
+        Carro carroAdv = new Carro("BMW", "serie 1", 2022, 180, 1800, Combustivel.DIESEL, 10);
+
+        carroAdv.ligar();
+
+        Carro carroTorneio = new Carro("Mercedes","A45",2023,420,2000,Combustivel.GASOLINA,20);
+
+        carroTorneio.ligar();
+
+        Carro vencedor = carro.corrida(carroAdv);
+
+        vencedor = vencedor.corrida(carroTorneio);
+
+        vencedor.calcLitros(100);
+
     }
 }
