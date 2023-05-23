@@ -63,8 +63,7 @@ public class Game {
             case 12: break;
         }
 
-
-
+        return true;
     }
 }
 
