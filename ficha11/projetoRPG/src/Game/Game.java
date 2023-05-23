@@ -43,7 +43,6 @@ public class Game {
                     karen.showDetails();
 
                     System.out.println("Role the dice to throw a rock at her.");
-
                     boolean win = fight(player, karen);
                     if (!win){
                         System.out.println("GAME OVER");
