@@ -1,5 +1,7 @@
 package Entities;
 
+import Main.ConsoleColors;
+
 public class NPC extends Entity{
 
     public NPC(String name, int hp, int strength){
@@ -8,8 +10,8 @@ public class NPC extends Entity{
 
     @Override
     public void showDetails() {
-        System.out.println("******DETALHES*****");
-        System.out.println("\n Name: " + super.getName());
+        System.out.println(ConsoleColors.PURPLE_UNDERLINED + "\nDetails about "+ super.getName() +"\n" + ConsoleColors.RESET);
+
         System.out.println("HP: " + super.getHp());
         System.out.println("Strength: " + super.getStrength());
     }

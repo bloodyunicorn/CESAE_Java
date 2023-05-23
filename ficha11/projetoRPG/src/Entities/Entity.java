@@ -1,5 +1,7 @@
 package Entities;
 
+import Main.ConsoleColors;
+
 abstract class Entity {
 
     private String name;
@@ -23,12 +25,20 @@ abstract class Entity {
         this.hp = hp;
     }
 
+    public void addToHp(int hp){
+        setHp(this.hp + hp);
+        System.out.println(ConsoleColors.BLUE_BOLD_BRIGHT + "+ " + hp + "HP" + ConsoleColors.RESET);
+    }
     public void setStrength(double strength) {
         this.strength = strength;
     }
 
     public double getStrength(){
         return strength;
+    }
+    public void addToStrength(int strength){
+        this.setStrength(this.strength + strength);
+        System.out.println(ConsoleColors.BLUE_BOLD_BRIGHT + "+ " + strength + "pts of Strength" + ConsoleColors.RESET);
     }
     public String getName() {
         return name;
