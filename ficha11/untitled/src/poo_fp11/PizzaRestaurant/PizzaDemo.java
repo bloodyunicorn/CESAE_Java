@@ -1,2 +1,4 @@
-package poo_fp11.PizzaRestaurant;public class PizzaDemo {
+package poo_fp11.PizzaRestaurant;
+
+public class PizzaDemo {
 }

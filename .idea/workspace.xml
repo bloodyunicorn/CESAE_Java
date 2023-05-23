@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7074bff4-ca67-49c0-86e0-f517c2313e2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FichaPratica08/FichaPratica08/.idea/FichaPratica08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichaPratica08/ficha8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichaPratica08/ficha8/ficha8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichaPratica08/ficha8/src/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_01_Alternativa01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_01_Alternativa02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_03_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_04.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_05_1999.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_05_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/exercicio_13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/src/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/src/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/src/ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/src/ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficha8_/src/ex5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficha5Java-main/Ficha5Java-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/ficha6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex12.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex13.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/out/production/ficha6/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha6/src/ex12.java" beforeDir="false" afterPath="$PROJECT_DIR$/ficha6/src/ex12.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OjAR40jOORxgVBTfxzYHqj4qJH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7074bff4-ca67-49c0-86e0-f517c2313e2d" name="Changes" comment="" />
+      <created>1682063605323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682063605323</updated>
+      <workItem from="1682063606551" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

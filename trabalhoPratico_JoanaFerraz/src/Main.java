@@ -109,10 +109,8 @@ class Main {
                     if (id == op) {
 
                         System.out.println("\nNome: " + x[i][2] + "\nContacto: " + x[i][3] + "\nEmail: " + x[i][4]);
-
                         stop = true;
                     }
-
                     i++;
                 }
 
@@ -259,7 +257,9 @@ class Main {
                         case 6: jogoMaiorValor(dados);
                             break;
 
-                        case 7: break;
+                        case 7:
+                            System.out.println("Adeus!");
+                            break;
 
                         default:
                             System.out.println("Opção inválida!");

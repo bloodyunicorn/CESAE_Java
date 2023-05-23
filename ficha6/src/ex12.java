@@ -20,12 +20,10 @@ class ex12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String frase;
 
         System.out.println("Escreva algo: ");
-        frase = input.nextLine();
+        String frase = input.nextLine();
 
-        palin(frase);
-
+        palin(frase); 
     }
 }
